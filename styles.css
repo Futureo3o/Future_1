@@ -1,0 +1,137 @@
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+    text-decoration:none;
+    box-sizing:border-box;
+}
+
+/* 기본 스타일 */
+body {
+    font-family: 'Noto Sans', sans-serif;
+    color: #333;
+}
+
+/* 헤더 스타일 */
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    cursor:none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+/* 메인 콘텐츠 스타일 */
+main {
+    padding: 20px;
+}
+
+#map_wrap {
+    padding: 10px;
+    display:flex;
+    justify-content: space-between;
+}
+
+#map_list form {
+    justify-content: center;
+    align-items: center;
+}
+
+#map_list {
+    width:25%;
+}
+
+.fa-solid {
+    color:#666;
+    cursor: pointer;
+}
+
+#map_list input {
+    border-color:#dddddd;
+    border-radius: 20px;
+    height:30px;
+    width:80%;
+    margin-right: 10px;
+}
+
+#map_list>div {
+    margin:10px 0;
+}
+
+#map_list>div button {
+    font-size: 15px;
+    background-color: #007BFF;
+    color:white;
+    border:0;
+    border-radius:2px;
+    width:70px;
+    height: 30px;
+    cursor: pointer;
+}
+
+#map_list>div select {
+    height:30px;
+}
+
+#place {
+    margin:0 10px;
+}
+
+#map_list li {
+    padding: 10px;
+    border-bottom: solid #dddddd 1px;
+    cursor: pointer;
+}
+
+#map_list h3 {
+    font-size:16px;
+    margin-bottom: 4px;
+}
+
+#map_list p {
+    color:#555;
+    font-size: 12px;
+}
+
+/* .fa-chevron-right {
+
+} */
+
+#map-container {
+    width: 72%;
+    height: 770px;
+    background-color: #f0f0f0;
+    border: 2px solid #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#map-placeholder {
+    font-size: 18px;
+    color: #555;
+}
+
+/* 푸터 스타일 */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
